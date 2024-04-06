@@ -1,6 +1,6 @@
 import { useState } from "react";
 import GridBoard from "./components/GridBoard";
-import {SortingVisualizer} from "./Sort/SortingVisualiser/SortingVisualiser"
+import SortingVisualizer from "./Sort/SortingVisualiser/SortingVisualiser"
 const App = () => {
   const [state, setState] = useState(false)
   return (
